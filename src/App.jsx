@@ -1,13 +1,15 @@
 
-import './App.css'
-import { About } from './components/About/About'
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import { Routing } from './components/Routing/Routing';
 
 function App() {
 
   return (
-    <>
-      <About></About>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routing />
+    </BrowserRouter>
   )
 }
 
