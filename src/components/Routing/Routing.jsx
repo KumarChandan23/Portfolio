@@ -6,6 +6,7 @@ import { Home } from '../Home/Home'
 import Skills from '../Skills/Skills'
 import Projects from '../Project/Project'
 import Contact from '../Contact/Contact'
+import { About } from '../About/About'
 
 export const Routing = () => {
   return (
@@ -16,6 +17,7 @@ export const Routing = () => {
         <Route path='/skills' element={<Skills />} />
         <Route path='/project' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
     </Routes>
  
   )

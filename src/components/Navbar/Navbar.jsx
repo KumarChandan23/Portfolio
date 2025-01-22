@@ -1,38 +1,24 @@
-import React, { useState } from 'react';
-import './Navbar.css';
-import logo from '../../assets/logo/png/logo-black.png';
-import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar = () => {
-    const [isNavOpen, setIsNavOpen] = useState(false);
+function BasicExample() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="/home">Home</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav " >
+          <Nav className='ms-auto '>
+            <Nav.Link href="/skills">Skills</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/project">Project</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
 
-    // Toggles the navigation visibility
-    function ToggelNavigation() {
-        setIsNavOpen(!isNavOpen);
-    }
-
-    return (
-        <nav className="navbar">
-            <div className="logo-container">
-                <img src={logo} alt="Logo" className="logo-img" />
-            </div>
-
-            {/* Add a class to the navigation menu to toggle visibility */}
-            <ul className={`nav-links ${isNavOpen ? 'open' : ''}`}>
-                <li><Link to="/about" className="navigation-link">About</Link></li>
-                <li><Link to="/skills" className="navigation-link">Skills</Link></li>
-                <li><Link to="/project" className="navigation-link">Projects</Link></li>
-                <li><Link to="/contact" className="navigation-link">Contact</Link></li>
-            </ul>
-
-            {/* Hamburger menu */}
-            <div className="hamburger" onClick={ToggelNavigation}>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-            </div>
-        </nav>
-    );
-};
-
-export default Navbar;
+export default BasicExample;
