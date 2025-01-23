@@ -6,30 +6,10 @@ export const About = () => {
         <div className="about-container">
             <div className="about-content">
                 <h1>About Me</h1>
-                <p>
-                    Hi, I'm CHANDAN KUMAR, a passionate <strong>MERN Stack Developer</strong> with a Bachelor's degree in BAC from Ram Lakhan Singh Yadav College Ranchi.  
-                    I specialize in creating seamless and responsive web applications using <strong>React, Node.js, Express, and MongoDB</strong>.
+                <p>Hii, i'm CHANDAN KUMAR, a passionate <strong>MERN Stack Developer</strong>  with expertise in building <strong>dynamic, responsive web applications</strong> . With hands-on experience in <strong>React.js, Node.js, Express.js, and MongoDB</strong> , I specialize in creating user-friendly interfaces and efficient server-side solutions. During my internship at <strong>jSpiders</strong>, I enhanced my skills in <strong>full-stack development</strong>  and gained valuable insights into industry best practices.
+                I am committed to continuous learning and strive to stay updated with the latest advancements in web technologies .  <strong>My goal</strong> is to contribute to <strong> impactful projects </strong> while expanding my knowledge in areas like <strong> advanced JavaScript frameworks </strong>
                 </p>
-                <p>
-                    Over the past few months, I've worked on diverse projects ranging from e-commerce platforms to dynamic product management systems.  
-                    I thrive in collaborative environments and enjoy solving challenging problems through clean, maintainable code.
-                </p>
-                <p>
-                    Beyond coding, I stay updated with the latest tech trends and continuously enhance my skills by building personal projects.  
-                    My goal is to contribute to innovative teams and build user-centric applications that make a difference.
-                </p>
-                <div className="skills">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>React, Redux</li>
-                        <li>Node.js, Express.js</li>
-                        <li>MongoDB, Mongoose</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>REST API Development</li>
-                        <li>Responsive Web Design (CSS3, TailwindCSS)</li>
-                        <li>Git, GitHub</li>
-                    </ul>
-                </div>
+            
             </div>
         </div>
     );
