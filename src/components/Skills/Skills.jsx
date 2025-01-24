@@ -1,6 +1,5 @@
 import React from 'react';
 
-const skills = ["React", "Node.js", "Express", "MongoDB", "Git", "Redux"];
 
 const Skills = () => {
     return (
@@ -9,7 +8,7 @@ const Skills = () => {
             {/* <h2>Skills</h2> */}
             <h2>Frontend Development</h2>
             <ul>
-                <li> HTML5, CSS3</li>
+                <li>HTML5, CSS3</li>
                 <li>JavaScript (ES6+)</li>
                 <li>React.js (including hooks, context API)</li>
                 <li>Redux or other state management libraries</li>
