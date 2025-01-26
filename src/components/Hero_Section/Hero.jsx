@@ -1,11 +1,16 @@
 import React from 'react';
+import { Home } from '../Home/Home';
+import Projects from '../Project/Project';
+import Contact from '../Contact/Contact';
+import { About } from '../About/About';
 
 const Hero = () => {
     return (
         <section className="hero">
-            <h1>Hi, I'm Chandan kumar</h1>
-            <p>MERN Stack Developer | Building Scalable Web Applications</p>
-            <a href="#projects" className="btn">View Projects</a>
+           <Home />
+           <Projects />
+           <Contact />
+           <About />
         </section>
     );
 };
