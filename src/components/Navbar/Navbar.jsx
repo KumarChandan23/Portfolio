@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className='fs-4' style={{ backgroundColor: '#74afd9' }}>
+    <Navbar expand="lg" className='fs-4' style={{ backgroundColor: 'rgb(131, 5, 248)' }}>
       <Container>
         <Navbar.Brand href="/home" className='text-light fs-5 bi bi-house'> Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

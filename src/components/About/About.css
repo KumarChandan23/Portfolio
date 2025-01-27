@@ -1,9 +1,10 @@
 .about-container {
     display: flex;
     justify-content: center;
+    color:#fff;
     /* align-items: center; */
     /* height: 100vh; */
-    background-color: #f4f4f9;
+    /* background-color: #f4f4f9; */
 }
 
 .about-content {
@@ -15,13 +16,13 @@
 .about-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: #333;
+    /* color: #333; */
 }
 
 .about-content p {
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #555;
+    /* color: #555; */
     margin-bottom: 1.5rem;
 }
 
