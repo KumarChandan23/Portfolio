@@ -3,7 +3,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section id="skills" className="p-lg-3 p-3 d-lg-flex justify-content-around">
+        <section id="skills" className="p-lg-3 p-3 d-lg-flex justify-content-between">
             <div className=''>
             {/* <h2>Skills</h2> */}
             <h2>Frontend Development</h2>

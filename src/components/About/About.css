@@ -1,15 +1,11 @@
 .about-container {
     display: flex;
     justify-content: center;
-    color:#fff;
-    /* align-items: center; */
-    /* height: 100vh; */
-    /* background-color: #f4f4f9; */
+    color:inherit;
+    text-align: justify;
 }
 
 .about-content {
-    max-width: 800px;
-    text-align: center;
     padding: 2rem;
 }
 
@@ -45,4 +41,17 @@
     font-size: 1.1rem;
     margin: 0.5rem 0;
     color: #666;
+}
+
+@media (max-width:768px) {
+    .about-container {
+        text-align: initial;
+        margin-top: 1rem;
+    }
+    .about-content{
+        padding:  0 5px;
+        word-spacing: 4PX;
+        letter-spacing: 2PX;
+    }
+
 }

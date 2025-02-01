@@ -29,10 +29,10 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section id="projects" className="projects" style={{ padding: " 0 50px " }}>
-            <div className="project-list d-flex flex-wrap justify-content-between">
+        <section id="projects" className="projects">
+            <div className="project-list d-flex flex-wrap justify-content-center gap-5">
                 {projects.map((project, index) => (
-                    <div key={index} className="project-card mt-3 card mx-2 border border-5 border-white" style={{ width: "18rem", height: "auto" }}>
+                    <div key={index} className="project-card mt-3 card mx-2 border border-5 border-white shadow" style={{ width: "18rem", height: "auto" }}>
                         <div className="card-header p-0" style={{ height: "250px" }}>
                             <img src={project.image} className="card-img-top h-100" alt={project.title}  />
                         </div>

@@ -6,7 +6,7 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className='fs-4' style={{ backgroundColor: 'rgb(131, 5, 248)' }}>
       <Container>
-        <Navbar.Brand href="/home" className='text-light fs-5 bi bi-house'> Home</Navbar.Brand>
+        <Navbar.Brand href="/" className='text-light fs-5 bi bi-house'> Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className='ms-auto'>

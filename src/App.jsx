@@ -2,14 +2,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import { Routing } from './components/Routing/Routing';
-// import "bootstrap/dist/css/bootstrap.css";
-// import "bootstrap-icons/font/bootstrap-icons.css";
-// import "bootstrap/dist/js/bootstrap.bundle";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Bootstrap JS + Popper.js
-import Hero from './components/Hero_Section/Hero';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensures JavaScript features like Carousel work
 
 function App() {
 
