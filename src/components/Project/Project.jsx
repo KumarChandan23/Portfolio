@@ -5,8 +5,8 @@ const projects = [
         image: "https://res.cloudinary.com/dv53eip2t/image/upload/v1738397180/Screenshot_2025-02-01_133525_y4nqbx.png",
         title: "Electronic Product",
         description: "A Electronic web application that allows users to purches products.",
-        link: "https://themechanger-alpha.vercel.app/",
-        github: "https://github.com/KumarChandan23/Theme-Changer"
+        link: "https://transcendent-capybara-7a8b38.netlify.app/",
+        github: "https://github.com/KumarChandan23/fakestore"
     },
 
     {
