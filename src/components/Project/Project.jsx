@@ -1,6 +1,13 @@
 import React from 'react';
 
 const projects = [
+    {
+        image: "https://res.cloudinary.com/dv53eip2t/image/upload/v1738397180/Screenshot_2025-02-01_133525_y4nqbx.png",
+        title: "Electronic Product",
+        description: "A Electronic web application that allows users to purches products.",
+        link: "https://themechanger-alpha.vercel.app/",
+        github: "https://github.com/KumarChandan23/Theme-Changer"
+    },
 
     {
         image: "https://res.cloudinary.com/dv53eip2t/image/upload/v1737887540/Screenshot_2025-01-26_160008_dzj2pc.png",
@@ -16,13 +23,7 @@ const projects = [
         link: "https://themechanger-alpha.vercel.app/",
         github: "https://github.com/KumarChandan23/Theme-Changer"
     },
-    {
-        image: "https://res.cloudinary.com/dv53eip2t/image/upload/v1737888512/Screenshot_2025-01-26_161809_rosb2w.png",
-        title: "Theme Changer",
-        description: "A web application that allows users to change the theme of the website.",
-        link: "https://themechanger-alpha.vercel.app/",
-        github: "https://github.com/KumarChandan23/Theme-Changer"
-    },
+   
 
 ];
 
