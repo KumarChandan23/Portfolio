@@ -17,6 +17,13 @@ const projects = [
         github: "https://github.com/KumarChandan23/BMI-Calculator"
     },
     {
+        image: "https://res.cloudinary.com/dv53eip2t/image/upload/v1738503273/Screenshot_2025-02-02_190402_pqfoty.png",
+        title: "Weather App",
+        description: " Weather App – Real-Time Weather Forecast",
+        link: "https://rainbow-elf-cdf085.netlify.app/",
+        github: "https://github.com/KumarChandan23/Weather-app"
+    },
+    {
         image: "https://res.cloudinary.com/dv53eip2t/image/upload/v1737888512/Screenshot_2025-01-26_161809_rosb2w.png",
         title: "Theme Changer",
         description: "A web application that allows users to change the theme of the website.",
