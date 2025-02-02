@@ -25,6 +25,9 @@ export const Home = () => {
             <img className={`${style.carousel_image} d-block w-100 `}  src="https://res.cloudinary.com/dv53eip2t/image/upload/v1737887540/Screenshot_2025-01-26_160008_dzj2pc.png" alt="First slide" />
           </Carousel.Item>
           <Carousel.Item className={style.carousel_item}>
+            <img className={`${style.carousel_image} d-block w-100`}  src="https://res.cloudinary.com/dv53eip2t/image/upload/v1738503273/Screenshot_2025-02-02_190402_pqfoty.png" />
+          </Carousel.Item>
+          <Carousel.Item className={style.carousel_item}>
             <img className={`${style.carousel_image} d-block w-100`}  src="https://res.cloudinary.com/dv53eip2t/image/upload/v1738397180/Screenshot_2025-02-01_133525_y4nqbx.png" alt="Second slide" />
           </Carousel.Item>
           <Carousel.Item className={style.carousel_item}>
