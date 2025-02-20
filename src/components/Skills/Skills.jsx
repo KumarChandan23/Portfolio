@@ -1,55 +1,53 @@
-import React from 'react';
-
+import React from "react";
+import styles from "./Skills.module.css"; // Import the CSS module
 
 const Skills = () => {
     return (
-        <section id="skills" className="p-lg-3 p-3 d-lg-flex justify-content-between">
-            <div className=''>
-            {/* <h2>Skills</h2> */}
-            <h2>Frontend Development</h2>
-            <ul>
-                <li>HTML5, CSS3</li>
-                <li>JavaScript (ES6+)</li>
-                <li>React.js (including hooks, context API)</li>
-                <li>Redux or other state management libraries</li>
-                <li>Responsive design (Bootstrap, Material-UI, Tailwind CSS)</li>
-                <li>Styled-components / CSS-in-JS</li>
-            </ul>
-            <h2>Backend Development</h2>
-            <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>REST API development</li>
-                <li>Authentication (JWT, OAuth)</li>
-            </ul>
-            <h2>Database Management</h2>
-            <ul>
-                <li>MongoDB (CRUD operations, aggregation pipelines)</li>
-                <li>Mongoose (ODM)</li>
-            </ul>
+        <section id="skills" className={styles.skillsSection}>
+            <h1 className={styles.heading}>Skills</h1>
+            <div className={styles.container}>
+                {/* Frontend Skills */}
+                <div className={styles.skillCategory}>
+                    <h4 className={styles.subHeading}>
+                        <i className="bi bi-code-slash"></i> Frontend Development
+                    </h4>
+                    <ul className={styles.skillList}>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js (including hooks, context API)</li>
+                        <li>Redux or other state management libraries</li>
+                        <li>Responsive design (Bootstrap, Material-UI, Tailwind CSS)</li>
+                        <li>Styled-components / CSS-in-JS</li>
+                    </ul>
+                </div>
+
+                {/* Soft Skills */}
+                <div className={styles.skillCategory}>
+                    <h3 className={styles.subHeading}>
+                        <i className="bi bi-people"></i> Soft Skills
+                    </h3>
+                    <ul className={styles.skillList}>
+                        <li>Problem-solving</li>
+                        <li>Communication skills</li>
+                        <li>Time management</li>
+                        <li>Adaptability and learning agility</li>
+                    </ul>
+                </div>
+
+                {/* Tools & Workflow */}
+                <div className={styles.skillCategory}>
+                    <h3 className={styles.subHeading}>
+                        <i className="bi bi-tools"></i> Tools & Workflow
+                    </h3>
+                    <ul className={styles.skillList}>
+                        <li>Git/GitHub</li>
+                        <li>NPM/Yarn</li>
+                        <li>Webpack, Babel</li>
+                        <li>Postman</li>
+                        <li>Deployment (Heroku, Netlify, Vercel)</li>
+                    </ul>
+                </div>
             </div>
-            <div className=''>
-
-           
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Problem-solving</li>
-                <li>Communication skills</li>
-                <li>Time management</li>
-                <li>Team collaboration</li>
-                <li>Adaptability and learning agility</li>
-            </ul>
-            <h2>Tools & Workflow</h2>
-            <ul>
-                <li>Git/GitHub</li>
-                <li>NPM/Yarn</li>
-                <li>Webpack, Babel</li>
-                <li>Postman</li>
-                <li>Deployment (Heroku, Netlify, Vercel)</li>
-            </ul>
-            </div>
-
-
         </section>
     );
 };

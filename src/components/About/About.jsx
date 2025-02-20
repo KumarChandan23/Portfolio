@@ -6,9 +6,7 @@ export const About = () => {
         <div className="about-container">
             <div className="about-content">
                 <h1>About Me</h1>
-                <p>Hii, i'm CHANDAN KUMAR, a passionate <strong>MERN Stack Developer</strong>  with expertise in building <strong>dynamic, responsive web applications</strong> . With hands-on experience in <strong>React.js, Node.js, Express.js, and MongoDB</strong> , I specialize in creating user-friendly interfaces and efficient server-side solutions. During my internship at <strong>jSpiders</strong>, I enhanced my skills in <strong>full-stack development</strong>  and gained valuable insights into industry best practices.
-                I am committed to continuous learning and strive to stay updated with the latest advancements in web technologies .  <strong>My goal</strong> is to contribute to <strong> impactful projects </strong> while expanding my knowledge in areas like <strong> advanced JavaScript frameworks </strong>
-                </p>
+                Hi, I'm Chandan Kumar, a passionate MERN Stack Developer skilled in React.js, Node.js, Express.js, and MongoDB. I build dynamic, responsive web applications with user-friendly interfaces and efficient backend solutions. During my internship at jSpiders, I honed my full-stack skills and learned industry best practices. I'm committed to continuous learning and staying updated with the latest web technologies.
             
             </div>
         </div>

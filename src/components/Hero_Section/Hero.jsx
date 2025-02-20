@@ -7,11 +7,10 @@ import Skills from '../Skills/Skills';
 
 const Hero = () => {
     return (
-        <section className="hero" style={{padding:"0 40px"}}>
+        <section className="hero">
            <Home />
            <Skills/>
            <Projects />
-
            <About />
            <Contact />
         </section>
